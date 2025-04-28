@@ -47,7 +47,7 @@ I am constantly improving my skills through hands-on projects and online courses
 Currently, I am focused on **deepening my understanding of machine learning models** and **SQL optimization** to handle more complex datasets.
 
 ## 💡 How to Contact Me
-If you'd like to get in touch, feel free to send me a message here on GitHub or connect with me via [LinkedIn](https://www.linkedin.com/in/amin-profile).
+If you'd like to get in touch, feel free to send me a message here on GitHub or connect with me via [LinkedIn](https://www.linkedin.com/in/mohammadamin-jahanimajd-481b6033a).
 
 ---
 
@@ -63,7 +63,7 @@ To run and explore the projects in this repository:
 
 1. **Clone the repository**:  
    ```
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/Aminjahanimajd/Amin-Data-Portfolio.git
    ```
    
 2. **Install dependencies** (for Python-based projects):  
