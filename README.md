@@ -21,7 +21,7 @@ Here are the key projects I have worked on:
    - Cleaned and visualized sales data to identify key business insights.
    - Tools used: Python (pandas, matplotlib), SQL.
    
-2. **[Customer Database Management](./SQL/Customer_DB_Management.sql)**
+2. **[Customer Database Management](./ecommerce-database-project/Ecommerce.sql)**
    - Designed and managed a relational database for customer information.
    - Tools used: MySQL, SQL Workbench.
 
