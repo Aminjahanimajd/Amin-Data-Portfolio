@@ -17,7 +17,7 @@ This repository showcases my **projects** in **Data Analysis**, **Machine Learni
 ## 🧑‍💻 Projects
 Here are the key projects I have worked on:
 
-1. **[Sales Data Cleaning and Visualization](./Data_Analysis/Sales_Data_Cleaning.ipynb)**
+1. **[Sales Data Cleaning and Visualization](./Technographic-Analysis-Italy/ItalyB2B.py)**
    - Cleaned and visualized sales data to identify key business insights.
    - Tools used: Python (pandas, matplotlib), SQL.
    
