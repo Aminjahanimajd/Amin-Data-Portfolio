@@ -1,4 +1,8 @@
+import os
 import pandas as pd
+
+# Ensure the folder exists
+os.makedirs("plots", exist_ok=True)
 
 # Define the file path
 file_path = "C:/Users/SefroyeK/OneDrive/Desktop/ItalyB2B/TechnographicData.csv"
@@ -73,6 +77,7 @@ import seaborn as sns
 sns.set(style='whitegrid')
 plt.rcParams['figure.figsize'] = (10, 6)
 
+# Plot 1: Technology Appearances Over Time
 monthly_counts = df.groupby(['Last_Year', 'Last_Month']).size().reset_index(name='Installations')
 monthly_counts['Date'] = pd.to_datetime({
     'year': monthly_counts['Last_Year'],
@@ -87,7 +92,10 @@ plt.ylabel("Number of Appearances")
 plt.xticks(rotation=45)
 plt.tight_layout()
 plt.show()
+plt.savefig("plots/tech_mentions_over_time.png")
+plt.close()
 
+# Plot 2: Top 10 Technologies
 top_techs = df['Technology Name'].value_counts().head(10)
 
 sns.barplot(x=top_techs.values, y=top_techs.index, palette="viridis")
@@ -96,14 +104,20 @@ plt.xlabel("Frequency")
 plt.ylabel("Technology Name")
 plt.tight_layout()
 plt.show()
+plt.savefig("plots/top_10_technologies.png")
+plt.close()
 
+# Plot 3: Behind Firewall Distribution
 sns.countplot(data=df, x='Behind Firewall', palette='Set2')
 plt.title("🔐 Technologies Behind Firewall")
 plt.xlabel("Behind Firewall")
 plt.ylabel("Count")
 plt.tight_layout()
 plt.show()
+plt.savefig("plots/behind_firewall_distribution.png")
+plt.close()
 
+# Plot 4: Trend of Most Common Technology
 top_tech_name = top_techs.index[0]
 top_tech_df = df[df['Technology Name'] == top_tech_name]
 
@@ -121,7 +135,10 @@ plt.ylabel("Mentions")
 plt.xticks(rotation=45)
 plt.tight_layout()
 plt.show()
+plt.savefig("plots/trend_top_technology.png")
+plt.close()
 
+# Plot 5: Technology Mentions by Company
 top_domains = df['Website Domain'].value_counts().head(8).index
 filtered = df[df['Website Domain'].isin(top_domains)]
 
@@ -131,6 +148,8 @@ plt.xlabel("Count")
 plt.ylabel("Website Domain")
 plt.tight_layout()
 plt.show()
+plt.savefig("plots/top_companies.png")
+plt.close()
 
 # Define file path to save
 output_path = "Cleaned_Technographic_Data_Italy.csv"
@@ -139,23 +158,3 @@ output_path = "Cleaned_Technographic_Data_Italy.csv"
 df.to_csv(output_path, index=False)
 
 print(f"✅ Cleaned dataset successfully saved to: {output_path}")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
