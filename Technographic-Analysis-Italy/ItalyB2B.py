@@ -91,8 +91,8 @@ plt.xlabel("Date")
 plt.ylabel("Number of Appearances")
 plt.xticks(rotation=45)
 plt.tight_layout()
-plt.show()
 plt.savefig("plots/tech_mentions_over_time.png")
+plt.show()
 plt.close()
 
 # Plot 2: Top 10 Technologies
@@ -103,8 +103,8 @@ plt.title("🏆 Top 10 Most Used Technologies")
 plt.xlabel("Frequency")
 plt.ylabel("Technology Name")
 plt.tight_layout()
-plt.show()
 plt.savefig("plots/top_10_technologies.png")
+plt.show()
 plt.close()
 
 # Plot 3: Behind Firewall Distribution
@@ -113,8 +113,8 @@ plt.title("🔐 Technologies Behind Firewall")
 plt.xlabel("Behind Firewall")
 plt.ylabel("Count")
 plt.tight_layout()
-plt.show()
 plt.savefig("plots/behind_firewall_distribution.png")
+plt.show()
 plt.close()
 
 # Plot 4: Trend of Most Common Technology
@@ -134,8 +134,8 @@ plt.xlabel("Date")
 plt.ylabel("Mentions")
 plt.xticks(rotation=45)
 plt.tight_layout()
-plt.show()
 plt.savefig("plots/trend_top_technology.png")
+plt.show()
 plt.close()
 
 # Plot 5: Technology Mentions by Company
@@ -147,8 +147,8 @@ plt.title("🧱 Technology Mentions by Company (Top 8)")
 plt.xlabel("Count")
 plt.ylabel("Website Domain")
 plt.tight_layout()
-plt.show()
 plt.savefig("plots/top_companies.png")
+plt.show()
 plt.close()
 
 # Define file path to save
