@@ -25,7 +25,7 @@ Here are the key projects I have worked on:
    - Designed and managed a relational database for customer information.
    - Tools used: MySQL, SQL Workbench.
 
-3. **[Housing Price Prediction](./Machine_Learning/Housing_Price_Prediction.ipynb)**
+3. **[Housing Price Prediction](./Italy_House_Price_Analysis/house_price_analysis.py)**
    - Applied machine learning to predict housing prices based on various features.
    - Tools used: Python (scikit-learn, matplotlib).
 
