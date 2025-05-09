@@ -19,9 +19,13 @@ To classify customer churn using supervised machine learning algorithms: Logisti
 **Sample Output:**
 
 customerID gender SeniorCitizen ... MonthlyCharges TotalCharges Churn
+
 0 7590-VHVEG Female 0 ... 29.85 29.85 No
+
 1 5575-GNVDE Male 0 ... 56.95 1889.5 No
+
 2 3668-QPYBK Male 0 ... 53.85 108.15 Yes
+
 
 ---
 
