@@ -77,7 +77,9 @@ Three models were trained and evaluated:
        1       0.62      0.52      0.56       374
 
 accuracy                           0.79      1407
+
 macro avg 0.73 0.70 0.71 1407
+
 weighted avg 0.78 0.79 0.78 1407
 
 - **Random Forest**
@@ -90,7 +92,9 @@ weighted avg 0.78 0.79 0.78 1407
        1       0.64      0.46      0.54       374
 
 accuracy                           0.79      1407
+
 macro avg 0.73 0.68 0.70 1407
+
 weighted avg 0.77 0.79 0.77 1407
 
 - **SVM**
@@ -103,7 +107,9 @@ weighted avg 0.77 0.79 0.77 1407
        1       0.64      0.54      0.58       374
 
 accuracy                           0.80      1407
+
 macro avg 0.74 0.71 0.72 1407
+
 weighted avg 0.79 0.80 0.79 1407
 
 ## 🔍 Business Insights
