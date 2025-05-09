@@ -150,4 +150,4 @@ pip install -r requirements.txt
 📬 Contact
 
 Developed by Amin — 2nd year BSc Data Analysis, University of Messina.
-For inquiries, please reach out via GitHub or LinkedIn.
+For inquiries, please reach out via GitHub or [Linkdin](https://www.linkedin.com/in/mohammadamin-jahanimajd-481b6033a/).
